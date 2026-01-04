@@ -1,27 +1,49 @@
-# Algorithm Performance Laboratory 👨🏻‍💻🧪
+# 🧪🧑🏽‍💻 Algorithm Performance Laboratory
 
-**Proyecto educativo para medir y visualizar el rendimiento de algoritmos clásicos en Java.**
+![Java](https://img.shields.io/badge/Java-24-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Build](https://img.shields.io/badge/Build-Pending-orange)
 
----
-
-## Descripción 📑
-
-Este proyecto permite ejecutar experimentos sobre distintos algoritmos, medir su tiempo de ejecución bajo diferentes escenarios y generar gráficos con los resultados.  
-
-Actualmente incluye:
-
-- Algoritmos de ordenamiento:
-  - Bubble Sort
-  - Quick Sort
-- Algoritmos de búsqueda:
-  - Búsqueda Secuencial (Linear Search)
-  - Búsqueda Binaria (Binary Search)
-
-El proyecto permite ejecutar:
-
-- **Experimentos individuales**: con un tamaño de entrada y escenario específicos.
-- **Batch completo**: evaluando varios tamaños de entrada y escenarios automáticamente.
+**Laboratorio educativo para medir y visualizar el rendimiento de algoritmos clásicos en Java.**
 
 ---
 
-## Estructura del proyecto 📎
+## 📑 Descripción
+
+Este proyecto permite:
+
+- Ejecutar experimentos sobre algoritmos clásicos.
+- Medir el tiempo de ejecución bajo distintos escenarios.
+- Generar gráficos automáticamente de los resultados.
+
+**Algoritmos incluidos:**
+
+- **Ordenamiento:** Bubble Sort, Quick Sort
+- **Búsqueda:** Linear Search, Binary Search
+
+**Modos de ejecución:**
+
+- Experimentos individuales
+- Batch completo (varios tamaños y escenarios)
+
+---
+
+## 🗂 Estructura del proyecto
+---
+
+## Requisitos
+
+- Java 24 (con `--enable-preview` para ciertas funciones)
+- Maven (para dependencias)
+- IntelliJ IDEA (recomendado)
+- Librerías incluidas: [XChart](https://knowm.org/open-source/xchart/)
+
+---
+
+## Cómo usar
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/Rodrig033/ALGORITHM_PERFORMANCE_LABORATORY.git
+cd  https://github.com/Rodrig033/ALGORITHM_PERFORMANCE_LABORATORY.git
