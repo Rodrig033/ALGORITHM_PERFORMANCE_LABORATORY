@@ -1,7 +1,7 @@
 package com.mx.curso.proyecto_final.modulo_estadistica.analisis;
 
 
-import com.mx.curso.unidad4.motor_medicion.MeasurementResult;
+import com.mx.curso.proyecto_final.motor_medicion.MeasurementResult;
 
 public class DefaultStatisticalAnalyzer implements StatisticalAnalyzer {
 

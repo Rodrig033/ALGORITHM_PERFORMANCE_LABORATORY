@@ -1,5 +1,5 @@
 package com.mx.curso.proyecto_final.motor_medicion.algorithms;
-import com.mx.curso.unidad4.motor_medicion.Algorithm;
+import com.mx.curso.proyecto_final.motor_medicion.Algorithm;
 
 public class LinearSearchAlgorithm implements Algorithm<int[]> {
 

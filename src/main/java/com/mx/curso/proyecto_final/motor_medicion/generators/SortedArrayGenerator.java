@@ -1,7 +1,7 @@
 package com.mx.curso.proyecto_final.motor_medicion.generators;
 
-import com.mx.curso.unidad4.motor_medicion.DataGenerator;
-import com.mx.curso.unidad4.motor_medicion.Scenario;
+import com.mx.curso.proyecto_final.motor_medicion.DataGenerator;
+import com.mx.curso.proyecto_final.motor_medicion.Scenario;
 
 import java.util.Random;
 

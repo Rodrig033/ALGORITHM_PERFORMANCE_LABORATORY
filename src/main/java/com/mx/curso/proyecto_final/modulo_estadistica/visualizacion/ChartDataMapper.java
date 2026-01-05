@@ -1,6 +1,6 @@
 package com.mx.curso.proyecto_final.modulo_estadistica.visualizacion;
 
-import com.mx.curso.unidad4.modulo_estadistica.analisis.AnalyzedExperiment;
+import com.mx.curso.proyecto_final.modulo_estadistica.analisis.AnalyzedExperiment;
 
 import java.util.List;
 

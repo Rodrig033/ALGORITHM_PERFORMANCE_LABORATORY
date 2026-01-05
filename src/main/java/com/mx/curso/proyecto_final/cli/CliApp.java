@@ -1,11 +1,11 @@
 package com.mx.curso.proyecto_final.cli;
 
-import com.mx.curso.unidad4.application.DefaultExperimentFacade;
-import com.mx.curso.unidad4.application.ExperimentFacade;
-import com.mx.curso.unidad4.domain.AlgorithmType;
-import com.mx.curso.unidad4.modulo_estadistica.analisis.AnalyzedExperiment;
-import com.mx.curso.unidad4.modulo_estadistica.visualizacion.*;
-import com.mx.curso.unidad4.motor_medicion.Scenario;
+import com.mx.curso.proyecto_final.application.DefaultExperimentFacade;
+import com.mx.curso.proyecto_final.application.ExperimentFacade;
+import com.mx.curso.proyecto_final.domain.AlgorithmType;
+import com.mx.curso.proyecto_final.modulo_estadistica.analisis.AnalyzedExperiment;
+import com.mx.curso.proyecto_final.modulo_estadistica.visualizacion.*;
+import com.mx.curso.proyecto_final.motor_medicion.Scenario;
 
 import java.util.ArrayList;
 import java.util.List;

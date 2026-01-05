@@ -1,6 +1,10 @@
 package com.mx.curso.proyecto_final.motor_medicion.algorithms;
-import com.mx.curso.unidad4.motor_medicion.Algorithm;
+import com.mx.curso.proyecto_final.motor_medicion.Algorithm;
 
+/**
+ * Implementación robusta de Quick Sort para experimentos académicos.
+ * Evita StackOverflowError incluso en arreglos ordenados o con valores repetidos.
+ */
 public class QuickSortAlgorithm implements Algorithm<int[]> {
 
     @Override
@@ -12,26 +16,38 @@ public class QuickSortAlgorithm implements Algorithm<int[]> {
     }
 
     private void quickSort(int[] data, int low, int high) {
-        if (low < high) {
+        while (low < high) {
             int pivotIndex = partition(data, low, high);
-            quickSort(data, low, pivotIndex - 1);
-            quickSort(data, pivotIndex + 1, high);
+
+            // Recurre primero sobre el subarreglo más pequeño
+            if (pivotIndex - low < high - pivotIndex) {
+                quickSort(data, low, pivotIndex);
+                low = pivotIndex + 1;
+            } else {
+                quickSort(data, pivotIndex + 1, high);
+                high = pivotIndex;
+            }
         }
     }
 
     private int partition(int[] data, int low, int high) {
-        int pivot = data[high];
-        int i = low - 1;
+        int pivot = data[(low + high) / 2];
 
-        for (int j = low; j < high; j++) {
-            if (data[j] <= pivot) {
-                i++;
-                swap(data, i, j);
+        while (low <= high) {
+            while (data[low] < pivot) {
+                low++;
+            }
+            while (data[high] > pivot) {
+                high--;
+            }
+
+            if (low <= high) {
+                swap(data, low, high);
+                low++;
+                high--;
             }
         }
-
-        swap(data, i + 1, high);
-        return i + 1;
+        return high;
     }
 
     private void swap(int[] data, int i, int j) {

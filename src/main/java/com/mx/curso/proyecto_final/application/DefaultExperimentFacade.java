@@ -1,10 +1,10 @@
 package com.mx.curso.proyecto_final.application;
 
-import com.mx.curso.unidad4.domain.AlgorithmType;
-import com.mx.curso.unidad4.modulo_estadistica.analisis.*;
-import com.mx.curso.unidad4.motor_medicion.*;
-import com.mx.curso.unidad4.motor_medicion.algorithms.*;
-import com.mx.curso.unidad4.motor_medicion.generators.*;
+import com.mx.curso.proyecto_final.domain.AlgorithmType;
+import com.mx.curso.proyecto_final.modulo_estadistica.analisis.*;
+import com.mx.curso.proyecto_final.motor_medicion.*;
+import com.mx.curso.proyecto_final.motor_medicion.algorithms.*;
+import com.mx.curso.proyecto_final.motor_medicion.generators.*;
 
 public class DefaultExperimentFacade implements ExperimentFacade {
 
